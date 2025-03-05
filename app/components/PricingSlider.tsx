@@ -6,6 +6,7 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Check, Zap, Filter, Type, Search, ImageIcon, ListFilter, RefreshCw, BarChart3, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 interface Feature {
   name: string
@@ -360,9 +361,11 @@ export default function PricingSlider() {
               </div>
 
               <div className="mt-8 text-center">
+                <Link href="https://apps.shopify.com/ryzo-search">
                 <Button className="apple-button w-full md:w-auto">
                   {selectedTier.price === 0 ? "Start for Free" : "Start Your Trial"}
                 </Button>
+                </Link>
                 <p className="mt-2 text-sm text-muted-foreground">No credit card required</p>
               </div>
             </div>
