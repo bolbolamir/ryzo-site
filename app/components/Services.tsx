@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Search, ImagePlus, SlidersHorizontal, Sparkles, BarChart3, Lightbulb, Zap } from "lucide-react"
+import { Search, ImagePlus, SlidersHorizontal, Sparkles, BarChart3, Lightbulb, Zap, Globe, UserCheck, MessageSquare, Repeat, ShieldCheck } from "lucide-react"
 
 const services = [
   {
@@ -45,6 +45,36 @@ const services = [
     title: "Enhanced Analytics Dashboard",
     description:
       "Gain deep insights into customer search patterns, popular keywords, and frequently missed products to optimize your store.",
+  },
+  {
+    icon: <Globe className="w-12 h-12 mb-4 text-teal-500" />,
+    title: "Multilingual Support",
+    description:
+      "Expand your global reach with our app's ability to process queries in multiple languages, such as Spanish and French, without needing separate models. Perfect for international Shopify stores.",
+  },
+  {
+    icon: <UserCheck className="w-12 h-12 mb-4 text-cyan-500" />,
+    title: "Personalized Results",
+    description:
+      "Leverage behavior-driven insights to prioritize products based on past purchases, searches, or preferences. For example, a vegan user will see plant-based products first.",
+  },
+  {
+    icon: <MessageSquare className="w-12 h-12 mb-4 text-lime-500" />,
+    title: "Handling Complex Queries",
+    description:
+      "Accurately parse ambiguous or verbose queries, such as 'lightweight waterproof jacket for hiking in rainy weather,' and resolve ambiguities like 'apple' (fruit) vs. 'Apple' (brand) using context.",
+  },
+  {
+    icon: <Repeat className="w-12 h-12 mb-4 text-rose-500" />,
+    title: "Continuous Improvement",
+    description:
+      "Keep your search results relevant over time with adaptive learning that fine-tunes the model using new product data or search trends. User interactions, such as clicks and purchases, refine the model for better accuracy.",
+  },
+  {
+    icon: <ShieldCheck className="w-12 h-12 mb-4 text-red-500" />,
+    title: "Robust Security",
+    description:
+      "Ensure the safety and privacy of your customers' data with our top-notch security features, including encryption and regular security audits.",
   },
 ]
 

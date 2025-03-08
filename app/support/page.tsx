@@ -81,7 +81,7 @@ export default function SupportPage() {
               <h2 className="text-2xl font-bold mb-4">Email Support</h2>
               <p className="mb-4">
                 For any inquiries, please email us at:{" "}
-                <a href="mailto:support@ryzosearch.com" className="text-primary hover:underline">
+                <a href="mailto:support@ryzo.tech" className="text-primary hover:underline">
                   support@ryzosearch.com
                 </a>
               </p>

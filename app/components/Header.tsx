@@ -6,7 +6,8 @@ import { useTheme } from "next-themes"
 import { motion } from "framer-motion"
 import { MoonIcon, SunIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
-
+import logo from "./../../public/logo.webp"
+import Image from "next/image"
 export default function Header() {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
@@ -28,7 +29,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Ryzo Search</span>
-            <img className="h-8 w-auto" src="https://cdn.shopify.com/app-store/listing_images/13c3194ffbb0fa55c6500b556c4b5e1b/icon/CLaTjumI14kDEAE=.png" alt="Ryzo Search Logo" />
+            <Image className="h-8 w-auto" src={logo} alt="Ryzo Search Logo" />
           </Link>
         </div>
         <div className="flex gap-x-8">

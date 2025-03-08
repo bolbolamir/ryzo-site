@@ -1,6 +1,7 @@
 import ScrollRevealFeatures from "../components/ScrollRevealFeatures"
 import Services from "../components/Services"
 import FeatureCarousel from "../components/FeatureCarousel"
+import PortfolioGrid from "../components/PortfolioGrid"
 
 export default function FeaturesPage() {
   return (
@@ -17,6 +18,8 @@ export default function FeaturesPage() {
         <ScrollRevealFeatures />
         <Services />
         <FeatureCarousel />
+
+        <PortfolioGrid />
       </div>
     </div>
   )

@@ -17,6 +17,7 @@ import ScrollRevealFeatures from "./components/ScrollRevealFeatures"
 import ScrollingImageShowcase from "./components/ScrollingImageShowcase"
 import PricingSlider from "./components/PricingSlider"
 import FAQ from "./components/FAQ"
+import { ScrollAnimation } from "../components/ScrollAnimation"
 
 export default function Home() {
   return (
@@ -25,31 +26,53 @@ export default function Home() {
       <section id="hero">
         <Hero />
       </section>
-      <WearYourStory />
-      <StatisticsSection />
-      <section id="features">
-        <Services />
-        {/* <ScrollRevealFeatures /> */}
-      </section>
-      <ParallaxSection />
-      <section id="how-it-works">
-        <PortfolioGrid />
-        <ScrollingImageShowcase />
+      <ScrollAnimation>
+        <WearYourStory />
+      </ScrollAnimation>
+      <ScrollAnimation delay={0.2}>
         <ProductShowcase />
-        <FeatureCarousel />
-      </section>
-      <section id="pricing">
-        <PricingSlider />
-      </section>
-      <FAQ />
-      <Testimonials />
-      <AboutUs />
-      <Timeline />
+      </ScrollAnimation>
       <Marquee />
-      <section id="contact">
-        <ContactForm />
-      </section>
-      <NewsletterSubscribe />
+      <ScrollAnimation>
+        <StatisticsSection />
+      </ScrollAnimation>
+      <ScrollAnimation delay={0.2}>
+        <section id="features">
+          <Services />
+        </section>
+      </ScrollAnimation>
+      <ParallaxSection />
+      <ScrollAnimation>
+        <section id="how-it-works">
+          <ScrollingImageShowcase />
+          <FeatureCarousel />
+        </section>
+      </ScrollAnimation>
+      <ScrollAnimation delay={0.2}>
+        <section id="pricing">
+          <PricingSlider />
+        </section>
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <FAQ />
+      </ScrollAnimation>
+      <ScrollAnimation delay={0.2}>
+        <Testimonials />
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <AboutUs />
+      </ScrollAnimation>
+      <ScrollAnimation delay={0.2}>
+        <Timeline />
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <section id="contact">
+          <ContactForm />
+        </section>
+      </ScrollAnimation>
+      <ScrollAnimation delay={0.2}>
+        <NewsletterSubscribe />
+      </ScrollAnimation>
     </>
   )
 }

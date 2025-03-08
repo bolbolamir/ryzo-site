@@ -1,6 +1,9 @@
 "use client"
 
 import { motion } from "framer-motion"
+import logo from "./../../public/logo.webp"
+import Image from "next/image"
+
 
 export default function AboutUs() {
   return (
@@ -35,8 +38,8 @@ export default function AboutUs() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg transform rotate-3"></div>
             <div className="absolute inset-0 bg-card rounded-lg transform -rotate-3 flex items-center justify-center">
-              <p className="text-2xl font-bold text-foreground">Creative Team at Work</p>
-            </div>
+              <Image width={400} height={400} src={logo}></Image>
+              </div>
           </motion.div>
         </div>
       </div>
