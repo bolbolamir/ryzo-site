@@ -81,14 +81,14 @@ export default function ProductShowcase() {
                   <h3 className="text-3xl font-bold text-foreground">{products[currentProduct].name}</h3>
                 </div>
                 <p className="text-xl text-muted-foreground mb-8">{products[currentProduct].description}</p>
-                <button className="apple-button">Learn More</button>
+                {/* <button className="apple-button">Learn More</button> */}
               </div>
               <div className="md:w-1/2 relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-2xl transform rotate-3"></div>
                 <Image
                   src={products[currentProduct].image || "/placeholder.svg"}
                   alt={products[currentProduct].name}
-                  width={300}
+                  width={700}
                   height={300}
                   className="rounded-2xl shadow-lg relative z-10"
                 />
@@ -96,13 +96,13 @@ export default function ProductShowcase() {
             </motion.div>
           </AnimatePresence>
           <button
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg text-primary hover:bg-primary hover:text-white transition-colors duration-300"
+            className="absolute left-0 opacity-80 backdrop-blur-0 top-1/2 transform -translate-y-1/2 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg text-primary hover:bg-primary hover:text-white transition-colors duration-300"
             onClick={prevProduct}
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
           <button
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg text-primary hover:bg-primary hover:text-white transition-colors duration-300"
+            className="absolute opacity-80 backdrop-blur-0 right-0 top-1/2 transform -translate-y-1/2 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg text-primary hover:bg-primary hover:text-white transition-colors duration-300"
             onClick={nextProduct}
           >
             <ChevronRight className="w-6 h-6" />

@@ -40,7 +40,7 @@ export default function PrivacyPage() {
 
           <p>
             If you have any questions about this privacy policy, please contact us at{" "}
-            <a href="mailto:support@ryzo.tech">privacy@ryzosearch.com</a>.
+            <a href="mailto:support@ryzo.tech">support@ryzo.tech</a>.
           </p>
         </div>
       </div>

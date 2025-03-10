@@ -57,7 +57,7 @@ export default function Home() {
         <FAQ />
       </ScrollAnimation>
       <ScrollAnimation delay={0.2}>
-        <Testimonials />
+        {/* <Testimonials /> */}
       </ScrollAnimation>
       <ScrollAnimation>
         <AboutUs />

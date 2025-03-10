@@ -13,7 +13,7 @@ export default function WearYourStory() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <div className="inline-flex items-center justify-center p-2 bg-primary/10 rounded-full mb-6">
+          <div className="inline-flex items-center justify-center p-2  rounded-full mb-6">
             <Zap className="h-6 w-6 text-primary mr-2" />
             <span className="text-primary font-medium">Quick Setup</span>
           </div>

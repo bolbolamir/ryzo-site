@@ -82,7 +82,7 @@ export default function SupportPage() {
               <p className="mb-4">
                 For any inquiries, please email us at:{" "}
                 <a href="mailto:support@ryzo.tech" className="text-primary hover:underline">
-                  support@ryzosearch.com
+                support@ryzo.tech
                 </a>
               </p>
               <p>We typically respond within 24 hours during business days.</p>
