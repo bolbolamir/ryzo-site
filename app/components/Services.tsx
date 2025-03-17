@@ -53,12 +53,6 @@ const services = [
       "Expand your global reach with our app's ability to process queries in multiple languages, such as Spanish and French, without needing separate models. Perfect for international Shopify stores.",
   },
   {
-    icon: <UserCheck className="w-12 h-12 mb-4 text-cyan-500" />,
-    title: "Personalized Results",
-    description:
-      "Leverage behavior-driven insights to prioritize products based on past purchases, searches, or preferences. For example, a vegan user will see plant-based products first.",
-  },
-  {
     icon: <MessageSquare className="w-12 h-12 mb-4 text-lime-500" />,
     title: "Handling Complex Queries",
     description:

@@ -16,11 +16,6 @@ const faqs = [
       "Absolutely! You have the flexibility to upgrade or downgrade your subscription at any time within your Shopify admin dashboard. Upgrading will grant you immediate access to advanced features, while downgrading will take effect at the beginning of your next billing cycle. This ensures that you only pay for what you need.",
   },
   {
-    question: "How secure is my data?",
-    answer:
-      "We prioritize the security of your data by implementing robust encryption protocols both in transit (TLS) and at rest (AES-256). Your sensitive information is stored on secure cloud servers with multiple layers of protection, including firewalls, intrusion detection systems, and regular security audits conducted by third-party experts. We comply with industry standards such as GDPR and PCI-DSS to ensure maximum safety.",
-  },
-  {
     question: "What kind of support do you offer?",
     answer:
       "We provide round-the-clock email support for all users, ensuring timely assistance regardless of your plan. For our premium subscribers, we offer priority response times, phone support, and live video call sessions to resolve complex issues quickly. Additionally, we maintain an extensive knowledge base, step-by-step guides, and an active community forum where you can interact with other merchants and get instant help.",
@@ -43,7 +38,7 @@ const faqs = [
   {
     question: "Can I customize the search bar design?",
     answer:
-      "Yes, Ryzo Search offers extensive customization options to match your store's branding. You can adjust colors, fonts, layouts, and even add custom CSS to create a seamless integration with your website's design. Our drag-and-drop editor makes it easy to tailor the search experience without needing coding skills.",
+      "Yes, Ryzo Search offers extensive customization options to match your store's branding. You can adjust colors, fonts and layouts.",
   },
   {
     question: "How often are my product listings updated in the search index?",

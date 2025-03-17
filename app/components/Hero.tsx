@@ -129,7 +129,7 @@ export default function Hero() {
           >
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur-lg opacity-30"></div>
-              <div className="relative">
+              <a className="relative" href="https://ryzo.tech/demo">
                 <Image
                   src={image}
                   alt="Ryzo Search dashboard"
@@ -138,7 +138,7 @@ export default function Hero() {
                   className="w-[500px] rounded-2xl shadow-xl ring-1 ring-gray-900/10"
                 />
 
-              </div>
+              </a>
             </div>
           </motion.div>
         </AnimateOnScroll>

@@ -68,7 +68,8 @@ export default function ScrollingImageShowcase() {
               />
 
               {/* Floating UI elements that animate independently */}
-              <motion.div
+              <motion.a
+              href="https://ryzo.tech/demo"
                 className="absolute top-8 right-8 bg-card p-3 rounded-lg shadow-lg"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -79,9 +80,10 @@ export default function ScrollingImageShowcase() {
                   <div className="w-3 h-3 rounded-full bg-green-500"></div>
                   <span className="text-sm font-medium">Live Search</span>
                 </div>
-              </motion.div>
+              </motion.a>
 
-              <motion.div
+              <motion.a
+              href="https://ryzo.tech/demo"
                 className="absolute bottom-8 left-8 bg-card p-3 rounded-lg shadow-lg"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -92,7 +94,7 @@ export default function ScrollingImageShowcase() {
                   <div className="w-3 h-3 rounded-full bg-purple-500"></div>
                   <span className="text-sm font-medium">AI Powered</span>
                 </div>
-              </motion.div>
+              </motion.a>
             </div>
           </motion.div>
         </div>
