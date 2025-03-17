@@ -24,6 +24,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/logo192.png" />
+        
+        {/* Add prefetching hints */}
+        <link rel="dns-prefetch" href="https://ryzo.tech" />
+        <link rel="preconnect" href="https://ryzo.tech" crossOrigin="anonymous" />
+        <link rel="prerender" href="https://ryzo.tech/demo" />
       </head>
       <body className={`${inter.className} min-h-screen bg-background text-foreground`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
